@@ -1,0 +1,261 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(./assets/fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: "RobotoBold";
+  src: url(./assets/fonts/Roboto-Bold.ttf);
+}
+
+.container {
+  background-color: #36384d;
+  font-family: "Roboto";
+  width: 100vw;
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.subcontainer {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  justify-content: space-between;
+  width: 50rem;
+  height: 55%;
+  background-color: white;
+  border-radius: 20px;
+  color: #242741;
+  overflow: hidden;
+}
+
+.subcontainer svg {
+  flex-shrink: 0;
+  position: relative;
+  left: 1rem;
+  grid-area: s;
+}
+
+.hero  {
+  margin-top: 1rem;
+  margin-left: 2vw;
+  align-self: flex-start;
+  grid-area: h;
+}
+
+.hero h1 {
+  font-family: "RobotoBold";
+  font-size: clamp(2rem,3rem,4rem);
+  white-space: nowrap;
+}
+
+.hero ul {
+  display: flex;
+  position: relative;
+  top: -1.5rem;
+  flex-direction: column;
+  gap: 8px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.required {
+  display: flex;
+  justify-content: space-between;
+  width: 107%;
+}
+
+i {
+  color: white;
+  background-color: #ea6055;
+  padding: 2px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.description {
+  white-space: nowrap;
+  position: relative;
+  top: -2rem;
+}
+
+
+label {
+  position: relative;
+  top: -1.4rem;
+  position: relative;
+}
+
+label p {
+  position: relative;
+  top: 0.5rem;
+  font-size: 0.9rem;
+  font-family: "RobotoBold";
+}
+
+input {
+  color: black;
+  border-radius: 5px ;
+  border: 2px solid rgba(196, 183, 183, 0.719);
+  background-color: white;
+  width: 100%;
+  padding: 1rem;
+}
+
+input::placeholder {
+  font-family: "Roboto";
+  font-size: 1rem;
+}
+
+button {
+  display: block;
+  padding: 0;
+  margin: 0;
+  width: 109%;
+  height: 54px;
+  font-family: "RobotoBold";
+  background-color: #36384d;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+.error {
+  border: 1px solid red;
+  background-color: #ffebee;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.875rem;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  width: 32rem;
+  height: 32rem;
+  background-color: white;
+  color: black;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.message i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-left: 4rem;
+  font-size: 2rem;
+  width:60px;
+  height: 60px;
+}
+
+.message h1{
+  font-family: "RobotoBold";
+  margin-left: 4rem;
+  font-size: 4rem;
+  line-height: 3.5rem;
+  color: #36384d;
+}
+
+.message p {
+  position: relative;
+  top: -1.5rem;
+  font-family: "Roboto";
+  margin-left: 4rem;
+}
+
+.message span {
+  font-family: "RobotoBold";
+  color: #36384d;
+}
+
+.message button {
+  font-size: 1rem;
+  align-self: center;
+  width: 80%;
+}
+
+@media (max-width: 425px) {
+  .subcontainer {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    width: 100%;
+    height: 100%;
+    grid-template-areas: "s"
+    "h";
+  }
+  .svg-container {
+    position: absolute;
+    margin-left: -1rem;
+    top: -19rem;
+    width: 100%;
+  }
+  .hero {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 4px;
+    top: -20rem;
+  }
+  .hero h1 {
+    font-size: 3.4rem
+  }
+  ul li{
+    margin-bottom: 1rem;
+  }
+  input {
+    width: 90%;
+    height: 30px;
+  }
+  button {
+    width: 100%;
+    height: 70px;
+  }
+  .message {
+    width: 100vw;
+    height: 100vh;
+  }
+  .message i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    font-size: 2rem;
+    width:60px;
+    height: 60px;
+  }
+  
+  .message h1{
+    font-family: "RobotoBold";
+    margin-left: 2rem;
+    font-size: 15vw;
+    line-height: 3.5rem;
+    color: #36384d;
+  }
+  .message p {
+    position: relative;
+    top: -1.5rem;
+    font-family: "Roboto";
+    margin-left: 2rem;
+  }
+  
+  .message span {
+    font-family: "RobotoBold";
+    color: #36384d;
+  }
+  
+  .message button {
+    position: absolute;
+    bottom: 3rem;
+    font-size: 1rem;
+    align-self: center;
+    width: 80%;
+  }
+  
+}
