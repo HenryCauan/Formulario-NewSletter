@@ -72,4 +72,3 @@ O projeto estará disponível em `http://localhost:5173`.
 * [Desafio no Frontend Mentor](https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv)
 * [Repositório no GitHub](https://github.com/HenryCauan/Formulario-NewSletter)
 
----
