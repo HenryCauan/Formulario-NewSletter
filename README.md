@@ -73,5 +73,3 @@ O projeto estará disponível em `http://localhost:5173`.
 * [Repositório no GitHub](https://github.com/HenryCauan/Formulario-NewSletter)
 
 ---
-
-Quer que eu também prepare um badge bonito para colocar no topo (como “Feito com ❤️ por Henry” ou um status de build)?
