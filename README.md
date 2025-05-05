@@ -25,6 +25,7 @@ Funcionalidades principais:
 ## 📸 Prévia
 
 ![Image](https://github.com/user-attachments/assets/b524000c-7ae1-4413-a5f9-199295364645)
+![Image](https://github.com/user-attachments/assets/f56e534a-0d3e-4088-95d1-d2807227209d)
 
 > **Nota:** Você pode adicionar uma captura de tela ou GIF mostrando o projeto funcionando. Se quiser, posso ajudar a gerar esse visual.
 
