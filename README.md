@@ -1,6 +1,3 @@
-Claro! Aqui está um README bem estruturado para o seu projeto:
-
----
 
 # 📩 Formulário Newsletter — Frontend Mentor Challenge
 
