@@ -36,7 +36,7 @@ function App() {
                   {isEmailEmpty && <p className="error-message">Valid email required</p>}
                 </div>
                 <input
-                  type="text"
+                  type="email"
                   placeholder='email@company.com'
                   id='input'
                   value={email}
